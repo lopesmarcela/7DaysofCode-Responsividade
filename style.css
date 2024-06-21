@@ -1,5 +1,6 @@
 @import url(styles/cabecalho.css);
 @import url(styles/consultas.css);
+@import url(styles/rodape.css);
 
 :root{
     --branco: #FFFFFF;
