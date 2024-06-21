@@ -22,3 +22,18 @@
 .item__azul{
     color: var(--azul);
 }
+
+.bt__flutuante{
+    width: 80px;
+    height: 80px;
+    background-image: url(../img/Botão\ flutuante.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    right: 0;
+    bottom: 3em;
+}
+
+.container__botao{
+    display: none;
+}
