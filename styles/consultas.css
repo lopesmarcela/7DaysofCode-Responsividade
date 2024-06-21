@@ -1,0 +1,103 @@
+.consultas{
+    margin: 0 1em;
+}
+
+.consultas__container__dia{
+    font-weight: 700;
+    color: var(--cinza-escuro);
+    padding: .5em 0;
+}
+
+.consultas__container__card{
+    background-color: var(--branco);
+    border-radius: 3%;
+    padding: 1em;
+    margin: 1em 0;
+}
+
+.consultas__container__card__1-linha,
+.consultas__container__card__cliente{
+    display: flex;
+}
+
+.consultas__container__card__1-linha{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.consultas__container__card__cliente__foto{
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+}
+
+.cliente_infos{
+    padding: 0 1em;
+}
+
+.cliente_infos__name{
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--cinza-escuro);
+    padding-bottom: .5em;
+}
+
+.cliente_infos__consulta__texto{
+    font-size: 12px;
+    color: var(--cinza-claro);
+    padding-left: .3em;
+}
+
+.container__chat{
+    background-color: var(--cor-de-borda);
+    width: 2em;
+    height: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1em;
+}
+
+.horario__consulta{
+    font-weight: 500;
+    font-size: 12px;
+    color: var(--cinza-escuro);
+}
+
+.container__botoes{
+    padding-top: .5em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.botoes{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;    
+    border-radius: 8px;
+    padding: 1em 1.5em;
+}
+
+.botao-primario{
+    background: var(--laranja);
+    color: var(--branco);
+}
+
+.botao-secundário{
+    background-color: transparent;
+    border: solid var(--cor-de-borda) 1px;
+    color: var(--cinza-escuro);
+}
+
+.container__botao{
+    padding-top: .5em;
+    display: flex;
+    justify-content: center;
+}
+
+.botao-terciario{
+    background: var(--azul);
+    color: var(--branco);
+    width: 100%;
+    text-align: center;
+}

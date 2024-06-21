@@ -1,0 +1,39 @@
+.barra-notificacoes{    
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--branco);
+    padding: .5em 1em;
+}
+
+.barra-notificacoes__relogio__horas{
+    font-size: 14px;
+}
+
+.barra-notificacoes__icons__item{
+    padding-left: .8em;
+}
+
+.perfil{
+    display: flex;
+    align-items: center;
+    padding: 2em 0;
+}
+
+.perfil__foto{
+    height: 20%;
+    width: 20%;
+    border-radius: 80%;
+    padding: 0 1em;
+}
+
+.perfil__descricao__titulo{
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--cinza-escuro);
+    padding-bottom: 0.2em;
+}
+
+.perfil__descricao__texto{
+    font-size: 14px;
+    color: var(--cinza-claro);
+}

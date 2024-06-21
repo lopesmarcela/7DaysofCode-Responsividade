@@ -1,0 +1,19 @@
+@import url(styles/cabecalho.css);
+@import url(styles/consultas.css);
+
+:root{
+    --branco: #FFFFFF;
+    --preto: #333333;
+    --cinza-escuro: #464646;
+    --cinza-claro: #A3A3A3;
+    --laranja:#FFB050;
+    --azul: #4894FF;
+    --cor-de-borda: #ECECEC;
+}
+
+body{
+    background-color: var(--cor-de-borda);
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: 400;
+}
