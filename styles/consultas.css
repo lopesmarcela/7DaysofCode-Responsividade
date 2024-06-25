@@ -89,15 +89,21 @@
     color: var(--cinza-escuro);
 }
 
-.container__botao{
-    padding-top: .5em;
-    display: flex;
-    justify-content: center;
-}
-
 .botao-terciario{
     background: var(--azul);
     color: var(--branco);
     width: 100%;
     text-align: center;
+}
+
+@media screen and (min-width: 767px){
+    .consultas__container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .consultas__container__card{
+        width: 43%;
+    }
 }

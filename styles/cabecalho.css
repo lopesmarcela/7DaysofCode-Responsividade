@@ -1,18 +1,3 @@
-.barra-notificacoes{    
-    display: flex;
-    justify-content: space-between;
-    background-color: var(--branco);
-    padding: .5em 1em;
-}
-
-.barra-notificacoes__relogio__horas{
-    font-size: 14px;
-}
-
-.barra-notificacoes__icons__item{
-    padding-left: .8em;
-}
-
 .perfil{
     display: flex;
     align-items: center;
